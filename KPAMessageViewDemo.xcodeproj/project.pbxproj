@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B962205E1938B18100799DF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B962205D1938B18100799DF7 /* Foundation.framework */; };
+		B96220601938B18100799DF7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B962205F1938B18100799DF7 /* CoreGraphics.framework */; };
+		B96220621938B18100799DF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B96220611938B18100799DF7 /* UIKit.framework */; };
+		B96220681938B18100799DF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B96220661938B18100799DF7 /* InfoPlist.strings */; };
+		B962206A1938B18100799DF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B96220691938B18100799DF7 /* main.m */; };
+		B962206E1938B18100799DF7 /* KPAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B962206D1938B18100799DF7 /* KPAAppDelegate.m */; };
+		B96220741938B18100799DF7 /* KPAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B96220731938B18100799DF7 /* KPAViewController.m */; };
+		B96220931938B1E800799DF7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B96220921938B1E800799DF7 /* Default-568h@2x.png */; };
+		B96220961938B20500799DF7 /* KPAMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B96220951938B20500799DF7 /* KPAMessageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B962205A1938B18100799DF7 /* KPAMessageViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KPAMessageViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B962205D1938B18100799DF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B962205F1938B18100799DF7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B96220611938B18100799DF7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B96220651938B18100799DF7 /* KPAMessageViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KPAMessageViewDemo-Info.plist"; sourceTree = "<group>"; };
+		B96220671938B18100799DF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B96220691938B18100799DF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B962206B1938B18100799DF7 /* KPAMessageViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KPAMessageViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		B962206C1938B18100799DF7 /* KPAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPAAppDelegate.h; sourceTree = "<group>"; };
+		B962206D1938B18100799DF7 /* KPAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPAAppDelegate.m; sourceTree = "<group>"; };
+		B96220721938B18100799DF7 /* KPAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPAViewController.h; sourceTree = "<group>"; };
+		B96220731938B18100799DF7 /* KPAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPAViewController.m; sourceTree = "<group>"; };
+		B962207C1938B18200799DF7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B96220921938B1E800799DF7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B96220941938B20500799DF7 /* KPAMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAMessageView.h; sourceTree = "<group>"; };
+		B96220951938B20500799DF7 /* KPAMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPAMessageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B96220571938B18100799DF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96220601938B18100799DF7 /* CoreGraphics.framework in Frameworks */,
+				B96220621938B18100799DF7 /* UIKit.framework in Frameworks */,
+				B962205E1938B18100799DF7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B96220511938B18100799DF7 = {
+			isa = PBXGroup;
+			children = (
+				B96220631938B18100799DF7 /* KPAMessageViewDemo */,
+				B962205C1938B18100799DF7 /* Frameworks */,
+				B962205B1938B18100799DF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B962205B1938B18100799DF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B962205A1938B18100799DF7 /* KPAMessageViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B962205C1938B18100799DF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B962205D1938B18100799DF7 /* Foundation.framework */,
+				B962205F1938B18100799DF7 /* CoreGraphics.framework */,
+				B96220611938B18100799DF7 /* UIKit.framework */,
+				B962207C1938B18200799DF7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B96220631938B18100799DF7 /* KPAMessageViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B962206C1938B18100799DF7 /* KPAAppDelegate.h */,
+				B962206D1938B18100799DF7 /* KPAAppDelegate.m */,
+				B96220721938B18100799DF7 /* KPAViewController.h */,
+				B96220731938B18100799DF7 /* KPAViewController.m */,
+				B96220941938B20500799DF7 /* KPAMessageView.h */,
+				B96220951938B20500799DF7 /* KPAMessageView.m */,
+				B96220641938B18100799DF7 /* Supporting Files */,
+			);
+			path = KPAMessageViewDemo;
+			sourceTree = "<group>";
+		};
+		B96220641938B18100799DF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B96220921938B1E800799DF7 /* Default-568h@2x.png */,
+				B96220651938B18100799DF7 /* KPAMessageViewDemo-Info.plist */,
+				B96220661938B18100799DF7 /* InfoPlist.strings */,
+				B96220691938B18100799DF7 /* main.m */,
+				B962206B1938B18100799DF7 /* KPAMessageViewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B96220591938B18100799DF7 /* KPAMessageViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B962208C1938B18200799DF7 /* Build configuration list for PBXNativeTarget "KPAMessageViewDemo" */;
+			buildPhases = (
+				B96220561938B18100799DF7 /* Sources */,
+				B96220571938B18100799DF7 /* Frameworks */,
+				B96220581938B18100799DF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KPAMessageViewDemo;
+			productName = KPAMessageViewDemo;
+			productReference = B962205A1938B18100799DF7 /* KPAMessageViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B96220521938B18100799DF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KPA;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Kenneth Parker Ackerson";
+			};
+			buildConfigurationList = B96220551938B18100799DF7 /* Build configuration list for PBXProject "KPAMessageViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B96220511938B18100799DF7;
+			productRefGroup = B962205B1938B18100799DF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B96220591938B18100799DF7 /* KPAMessageViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B96220581938B18100799DF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96220681938B18100799DF7 /* InfoPlist.strings in Resources */,
+				B96220931938B1E800799DF7 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B96220561938B18100799DF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B962206A1938B18100799DF7 /* main.m in Sources */,
+				B962206E1938B18100799DF7 /* KPAAppDelegate.m in Sources */,
+				B96220741938B18100799DF7 /* KPAViewController.m in Sources */,
+				B96220961938B20500799DF7 /* KPAMessageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B96220661938B18100799DF7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B96220671938B18100799DF7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B962208A1938B18200799DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B962208B1938B18200799DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B962208D1938B18200799DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KPAMessageViewDemo/KPAMessageViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "KPAMessageViewDemo/KPAMessageViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B962208E1938B18200799DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KPAMessageViewDemo/KPAMessageViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "KPAMessageViewDemo/KPAMessageViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B96220551938B18100799DF7 /* Build configuration list for PBXProject "KPAMessageViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B962208A1938B18200799DF7 /* Debug */,
+				B962208B1938B18200799DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B962208C1938B18200799DF7 /* Build configuration list for PBXNativeTarget "KPAMessageViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B962208D1938B18200799DF7 /* Debug */,
+				B962208E1938B18200799DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B96220521938B18100799DF7 /* Project object */;
+}
