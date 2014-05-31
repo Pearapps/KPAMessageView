@@ -15,7 +15,6 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     [self.window makeKeyAndVisible];
     [self.window setRootViewController:[[KPAViewController alloc] init]];
-    NSLog(@"finishing didfinish");
     return YES;
 }
 
